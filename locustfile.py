@@ -9,6 +9,6 @@ class Yuk_testim(HttpUser):
         self.client.get("/get")
 
  
-    @task(2) #bu test 2 kat daha fazla çalışacak
+    @task(2) #bu test 2 kat daha fazla çalışacakkk
     def Yuk_testim2(self):
         self.client.get("/get2")
