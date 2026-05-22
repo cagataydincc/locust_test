@@ -12,3 +12,5 @@ class Yuk_testim(HttpUser):
     @task(2) #bu test 2 kat daha fazla çalışacakkk
     def Yuk_testim2(self):
         self.client.get("/get2")
+
+  #new feature      
