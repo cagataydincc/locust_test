@@ -14,4 +14,4 @@ class Yuk_testim(HttpUser):
         self.client.get("/get2")
 
   #new feature      
- #github 
+ #github test
